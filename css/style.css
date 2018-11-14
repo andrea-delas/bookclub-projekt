@@ -1,0 +1,506 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico");
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, ul, li {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+#div-header {
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	position: fixed;
+	z-index: 1;
+}
+#div-header-logo {
+	float: left;
+	margin-top: 7px;
+}
+#div-header-logo h2 a {
+	font-family: "Pacifico", cursive;
+	color: #e5474b;
+	font-size: 1em;
+	margin-left: 200px;
+	text-decoration: none;
+}
+#div-header-menu a.current {
+	color: #e5474b;
+}
+#div-header-menu {
+	float: right;
+}
+#div-header-menu ul {
+	margin-right: 200px;
+}
+#div-header-menu li {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: "Garamond";
+	letter-spacing: 2px;
+}
+#div-header-menu li a {
+	display: block;
+	color: white;
+	padding: 30px 30px;
+	text-decoration: none;
+}
+#div-header-menu a:hover {
+    color: #e5474b;
+}
+#div-content-wrap {
+	
+}
+#div-banner {
+	clear: both;
+	background-image: url("../images/header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 644px;
+	padding: 0 200px;
+}
+#div-banner-text {
+	font-family: "Garamond";
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 7px;
+	font-size: 30px;
+	line-height: 1.5;
+	text-shadow: 1px 1px 1px #ffffff;
+	position: relative;
+	top: 190px;
+}
+.opis {
+	font-family: "Garamond";
+	font-size: 30px;
+	text-shadow: none;
+	letter-spacing: 2px;
+	margin-top: 15px;
+}
+.button {
+	font-family: "Poppins";
+	background-color: inherit;
+    border: 1px solid white;
+    text-transform: uppercase;
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 35px 2px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+#div-content {
+	position: relative;
+	padding: 10px 200px;
+}
+#div-content-top h2 {
+	font-family: "Garamond";
+	font-size: 40px;
+	text-align: center;
+	color: #e5474b;
+	padding-top: 70px;
+	font-weight: bold;
+}
+#div-content-top p {
+	font-family: "Garamond";
+	text-align: center;
+	font-size: 20px;
+	padding-top: 20px; 
+	line-height: 2;
+}
+.content-icon {
+	margin-top: 100px;
+}
+.content-icon-left {
+	width: 45%;
+	float: left;
+	text-align: center;
+	margin-right: 5%;
+}
+.content-icon-right {
+	width: 45%;
+	float: left;
+	text-align: center;
+}
+.content-icon h2 {
+	font-family: "Garamond";
+	font-size: 30px;
+	text-align: center;
+	color: #e5474b;
+	padding-top: 30px;
+	font-weight: bold;
+}
+.content-icon p {
+	font-family: "Garamond";
+	text-align: center;
+	font-size: 20px;
+	padding-top: 20px; 
+	line-height: 2;
+}
+.book-icon, .wine-icon {
+	text-align: center;
+	width: 100px;
+	height: 100px;	
+}
+.counter-section-wrap {
+	width: 100%;
+	height: 200px;
+	margin-top: 100px;
+	background-color: black;
+	color: white;
+	position: relative;
+}
+.counter-section {
+	padding: 10px 200px;
+}
+.calendar {
+	padding-top: 15px;
+	width: 30%;
+	float: left;
+	text-align: center;
+}
+.calendar img, h2, p {
+	padding-top: 15px;
+}
+.calendar img {
+	width: 50px;
+	height: 50px;
+}
+.users {
+	width: 30%;
+	float: left;
+	margin-left: 5%;
+	text-align: center;
+	padding-top: 15px;
+}
+.users img, h2, p {
+	padding-top: 15px;
+}
+.users img {
+	width: 50px;
+	height: 50px;
+}
+.books {
+	width: 30%;
+	float: left;
+	margin-left: 5%;
+	text-align: center;
+	padding-top: 15px; 
+}
+.books img, h2, p {
+	padding-top: 15px;
+}
+.books img {
+	width: 50px;
+	height: 50px;
+}
+.calendar p, .users p, .books p {
+	text-transform: uppercase;
+	font-family: "Poppins";
+	font-size: 15px;
+	line-height: 1.5;
+    letter-spacing: 3px;
+}
+.calendar h2, .users h2, .books h2 {
+	color: #e5474b;
+}
+* {box-sizing:border-box}
+.slider-description h2 {
+	font-family: "Garamond";
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	color: #e5474b;
+	letter-spacing: 2px;
+	font-size: 40px;
+	line-height: 1.5;
+	text-shadow: 1px 1px 1px #ffffff;
+	position: relative;
+	margin-top: 100px;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 100px;
+}
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+.mySlides img {
+	width: 250px;
+	height: 350px;
+	margin-left: 150px;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #e5474b;
+}
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 0px 140px;
+  display: block;
+  bottom: 8px;
+  float: right;
+  text-align: left;
+}
+.text p {
+	line-height: 2.5em;
+	font-family: "Garamond";
+	font-size: 20px;
+}
+.button-slider {
+	font-family: "Garamond";
+	background-color: white;
+	border: 1px solid black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: black;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    text-decoration: none;
+   	font-size: 15px;
+  	cursor: pointer;
+  	font-weight: bold;
+  	padding: 10px;
+  	margin-left: 30px;
+}
+.button-slider:hover {
+	background-color: #e5474b;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+#div-footer {
+	width:100%;
+	margin-top: 80px;
+	height: 80px;
+	background-color: black;
+}
+#div-footer p {
+	color: #e5474b;
+	font-family: "Garamond";
+	text-align: center;
+	padding-top: 30px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.footer-logo {
+	font-family: "Pacifico", cursive;
+	color: #e5474b;
+	font-size: 1em;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 15px;
+	letter-spacing: normal;
+
+}
+/* HTML form */
+#div-obrazac {
+	margin-top: 50px;
+	width: 45%;
+	float: left;
+}
+.form-description h2 {
+	font-family: "Garamond";
+	font-size: 30px;
+	text-align: center;
+	color: #e5474b;
+	padding-top: 40px;
+	font-weight: bold;
+}
+.form-description h4 {
+	font-family: "Garamond";
+	font-size: 20px;
+	text-align: center;
+	color: black;
+	padding-top: 20px;
+	line-height: 1.5em;
+}
+#div-obrazac p {
+	margin-bottom: 20px;
+}
+#div-obrazac label {
+	display: inline-block;
+}
+#div-obrazac input {
+	color: black;
+	border: 1px solid grey;
+    border-radius: 6px;
+	padding: 10px;
+	width: 100%;
+}
+
+#p-form-buttons {
+	margin-top: 20px;
+}
+#p-form-buttons input {
+	background-color: white;
+	color: #000000;
+	font-family: "Garamond";
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	padding: 8px 15px;
+	margin-right: 15px;
+	border: solid 1px #000000;
+	cursor: pointer;
+	width: 40%;
+}
+#p-form-buttons input:hover {
+	background-color: #e5474b;
+	color: #ffffff;
+}
+.ime, .prezime, .mail, .poruka {
+	padding-bottom: 10px;
+	font-family: "Garamond";
+	font-size: 18px;
+}
+#opis {
+	width: 100%;
+	height: 150px;
+	border: 1px solid grey;
+    border-radius: 6px;
+}
+#map {
+	height: 460px;
+	width: 45%;
+	float: right;
+	margin-top: 95px;
+	border: 1px solid grey;
+    border-radius: 6px;
+    margin-right: 3%;
+}
+.gallery {
+	padding: 0 200px;
+	margin: 0 auto;
+	display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.gallery img {
+	width: 220px;
+	padding: 5px;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+.gallery img:hover {
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+.content-o-nama h2 {
+	font-family: "Garamond";
+	font-size: 30px;
+	text-align: center;
+	color: #e5474b;
+	padding-top: 40px;
+	font-weight: bold;
+}
+.content-o-nama p {
+	font-family: "Garamond";
+	font-size: 20px;
+	text-align: center;
+	color: black;
+	padding-top: 20px;
+	line-height: 1.5em;
+	padding-bottom: 30px;
+	text-align: justify;
+}
+#div-blog-content {
+	padding: 10px 200px;
+}
+#div-blog-content h2 {
+	font-family: "Garamond";
+	font-size: 30px;
+	text-align: center;
+	color: #e5474b;
+	padding-top: 40px;
+	font-weight: bold;
+}
+#div-blog-content img {
+	width: 250px;
+	height: 350px;
+	float: left;
+	margin-right: 30px;
+	margin-top: 39px;
+	margin-bottom: 20px;
+}
+#div-blog-content p {
+	text-align: justify;
+	margin-top: 18px;
+	font-family: "Garamond";
+	font-size: 20px;
+	color: black;
+}

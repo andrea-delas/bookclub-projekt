@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Book CLub Osijek</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div id="div-header">
+		<div id="div-header-logo">
+			<h2><a href="index.html">Book Club Osijek</a></h2>
+		</div>
+		<div id="div-header-menu">
+			<ul>
+				<li><a class="current" href="index.html">Naslovna</a></li>
+				<li><a href="o-nama.html">O nama</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="div-content-wrap">
+			<div id="div-banner">
+				<div id="div-banner-text">
+					<h2>BOOK CLUB OSIJEK</h2>
+					<p class="opis">Uz svaku pročitanu knjigu, zajedno rastemo.</p>
+					<a href="o-nama.html"><input type="button" class="button" value="Saznaj više"></a>
+				</div>
+			</div>
+			<div id="div-content">
+				<div id="div-content-top">
+					<h2>Dobrodošli na stranice Book Cluba Osijek!</h2>
+					<p>Book Club Osijek kroz posljednjih nekoliko godina okuplja zaljubljenike u čitanje, književnost i pisanu riječ. Sastanci se održavaju jednom mjesečno i čita se unaprijed dogovorena knjiga. Kroz dva sata trajanja sastanka razmatramo pročitano, razvijamo kritičko mišljenje i izgrađujemo vlastite stavove. Kući odlazimo bogatiji za još jedno iskustvo i sa  podužim popisom prijedloga za daljnje čitanje.</p>
+				</div>
+			<div class="content-icon">					
+				<div class="content-icon-left">
+					<img src="images/books.svg" class="book-icon" onmouseover="this.src='images/books2.svg'" onmouseout="this.src='images/books.svg'" />
+					<h2>Knjige</h2>
+					<p>Čitamo različite žanrove knjiga, od krimića i trilera, drama i „chick lit“ romana pa do znanstvene fantastike i biografije. Podjednako uživamo kako u stranoj, tako i u domaćoj literaturi, a imamo iskustva i u "spoju na slijepo" s knjigom. </p>
+				</div>
+				<div class="content-icon-right">
+					<img src="images/wine.svg" class="wine-icon" onmouseover="this.src='images/wine3.svg'" onmouseout="this.src='images/wine.svg'" />
+					<h2>Vino</h2>
+					<p>Uz ljubav prema knjigama, otkrili smo i ljubav prema čaši dobrog vina. Naši sastanci se najčešće održavaju u vinoteci pa u raspravi često uživamo uz čašu roséa, žutog muškata, rajnskog rizlinga ili drugog vina po izboru.</p>
+				</div>
+			</div>
+			<div style="clear:both"></div>
+			</div>
+	</div>
+	<div class="counter-section-wrap">
+		<div class="counter-section">
+			<div class="calendar">
+				<img src="images/time.svg"/>
+				<h2><span class="counter text-counter">5</span></h2>
+				<p>godina postojanja</p>
+			</div>
+			<div class="users">
+				<img src="images/users.svg"/>
+				<h2><span class="counter text-counter">47</span></h2>
+				<p>aktivnih članova</p>
+			</div>
+			<div class="books">
+				<img src="images/books-stack.svg"/>
+				<h2><span class="counter text-counter">183</span></h2>
+				<p>pročitane knjige</p>
+			</div>
+		</div>
+	</div>
+			
+
+	<div class="slider-description">
+		<h2>U srpnju smo čitali:</h2>
+	</div>
+<!-- Slideshow container -->
+	<div class="slideshow-container">
+<!-- Full-width images with number and caption text -->
+  		<div class="mySlides fade">
+   			<img src="images/slide1.jpg">
+    		<div class="text"><p><strong>Naziv autora:</strong> Pavao Pavličić <br> <strong>Naziv knjige:</strong> Koraljna vrata <br> <strong>Žanr:</strong> fantastična fikcija</p> <br> <a href="blog.html"><input type="button" class="button-slider" value="Pročitaj dojmove"></a></div>
+		</div>
+		<div class="mySlides fade">
+   			<img src="images/slide2.jpg">
+    		<div class="text"><p><strong>Naziv autora:</strong> Margaret Atwood <br> <strong>Naziv knjige:</strong> Sluškinjina priča <br> <strong>Žanr:</strong> znanstvena fantastika, distopija</p> <br> <a href="blog.html"><input type="button" class="button-slider" value="Pročitaj dojmove"></a></div>
+  		</div>
+		<div class="mySlides fade">
+   			<img src="images/slide3.jpg">
+    		<div class="text"><p><strong>Naziv autora:</strong> Milan Kundera <br> <strong>Naziv knjige:</strong> Šala <br> <strong>Žanr:</strong> satira</p> <br> <a href="blog.html"><input type="button" class="button-slider" value="Pročitaj dojmove"></a></div>
+  		</div>
+  	<!-- Next and previous buttons -->
+  			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+	<br>
+<!-- The dots/circles -->
+	<div style="text-align:center">
+  		<span class="dot" onclick="currentSlide(1)"></span> 
+  		<span class="dot" onclick="currentSlide(2)"></span> 
+  		<span class="dot" onclick="currentSlide(3)"></span> 
+	</div>
+	<div id="div-footer">
+		<p>Sva prava zadržava © <span class="footer-logo">Book Club Osijek</span></p>
+	</div>
+<script src="js/jquery.waypoints.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script type="text/javascript" src="js/counter.js"></script>
+<script type="text/javascript" src="js/slideshow.js"></script>
+</body>
+</html>
