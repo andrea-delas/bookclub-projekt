@@ -1,1 +1,1 @@
-This is my first project as a web developer. Also, this website was my end project of web design course.
+This is my first project as a Web Developer. Also, this website was my end project of Web Design course.
